@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background: rgb(175, 214, 255);
+  background: radial-gradient(
+    circle,
+    rgba(175, 214, 255, 1) 50%,
+    rgba(143, 162, 254, 1) 100%
+  );
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+/* Contenedor de las tarjetas */
+.cards-container {
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver en múltiples líneas si no caben */
+  justify-content: center; /* Centrar horizontalmente */
+  margin: 20px; /* Margen exterior */
+}
+
+/* Estilos de las tarjetas individuales */
+.card {
+  background-color: #fff; /* Fondo blanco */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutíl */
+  margin: 10px; /* Margen entre tarjetas */
+  max-width: 300px; /* Ancho máximo */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Texto centrado */
+  transition: transform 0.3s; /* Transición al hacer hover */
+}
+
+/* Efecto de hover en las tarjetas */
+.card:hover {
+  transform: translateY(-10px); /* Desplazamiento hacia arriba al hacer hover */
+}
+
+/* Estilos de imágenes dentro de las tarjetas */
+.card img {
+  border-radius: 5px; /* Bordes redondeados */
+  max-width: 60%; /* Ancho máximo de la imagen */
+  height: auto; /* Altura automática según la proporción */
+}
+
+/* Estilos del título dentro de las tarjetas */
+.card h2 {
+  color: #333; /* Color del texto */
+  font-size: 1.5em; /* Tamaño de fuente */
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos de las listas dentro de las tarjetas */
+.card ul {
+  list-style-type: none; /* Eliminar viñetas */
+  padding: 0; /* Eliminar padding predeterminado */
+  text-align: center; /* Texto centrado */
+  color: #666; /* Color del texto */
+}
+
+/* Estilos de párrafos dentro de las tarjetas */
+.card p {
+  color: #666; /* Color del texto */
+  font-size: 1em; /* Tamaño de fuente */
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilos de enlaces dentro de las tarjetas */
+.card a {
+  background-color: #52a7de; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  display: inline-block; /* Mostrar como bloque en línea */
+  margin: 10px 0; /* Margen superior e inferior */
+  padding: 10px 15px; /* Padding interno */
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Efecto de hover en los enlaces dentro de las tarjetas */
+.card a:hover {
+  background-color: #467afc; /* Cambio de color de fondo al hacer hover */
+}
+
+/* Estilos del contenedor de secciones */
+section {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutíl */
+  margin: 20px auto; /* Margen exterior */
+  max-width: 600px; /* Ancho máximo */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos del título de sección */
+h2 {
+  color: #333; /* Color del texto */
+  font-size: 1.8em; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Margen inferior */
+  text-align: center; /* Texto centrado */
+}
+
+/* Estilos de la tabla */
+table {
+  border-collapse: collapse; /* Colapso de bordes */
+  margin: 20px 0; /* Margen superior e inferior */
+  width: 100%; /* Ancho completo */
+}
+
+/* Estilos de celdas de tabla (encabezados y datos) */
+th,
+td {
+  border: 1px solid #ddd; /* Borde gris claro */
+  padding: 12px; /* Padding interno */
+  text-align: left; /* Texto alineado a la izquierda */
+}
+
+/* Estilos de celdas de encabezado */
+th {
+  background-color: #f2f2f2; /* Fondo gris claro */
+  color: #333; /* Color del texto */
+}
+
+/* Estilos de celdas de datos */
+td {
+  color: #666; /* Color del texto */
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #7e7e7e; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 10px 0; /* Espaciado interno */
+  text-align: center; /* Texto centrado */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos del texto dentro del pie de página */
+footer p {
+  margin: 0; /* Eliminar margen */
+}
+
+/* Estilos de enlaces dentro del pie de página */
+footer a {
+  color: #fff; /* Texto blanco */
+}
